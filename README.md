@@ -27,8 +27,6 @@
     },
     "explorer.autoReveal": false,
     "editor.renderWhitespace": "none",
-    "editor.parameterHints": false,
-    "materialTheme.fixIconsRunning": false,
     "editor.wordWrap": "on",
     "workbench.sideBar.location": "left",
     "workbench.activityBar.visible": false,
@@ -36,7 +34,10 @@
     "javascript.validate.enable": false,
     "explorer.confirmDragAndDrop": false,
     "editor.fontLigatures": true,
-    "editor.scrollBeyondLastLine": false
+    "editor.scrollBeyondLastLine": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
 ```
 
