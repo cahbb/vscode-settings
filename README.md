@@ -42,7 +42,6 @@
 ```
 
 # Extensions
-- Babel ES6/ES7
 - EditorConfiq for VS Code
 - ESlint
 - File Utils
@@ -52,5 +51,3 @@
 - Prettify JSON
 - VS Live Share
 - XML Tools
-- ES7 React/Redux/GraphQL/React-Native snippets
-
