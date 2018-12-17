@@ -52,3 +52,5 @@
 - Prettify JSON
 - VS Live Share
 - XML Tools
+- ES7 React/Redux/GraphQL/React-Native snippets
+
