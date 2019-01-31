@@ -3,7 +3,7 @@
 {
     "window.zoomLevel": 0,
     "workbench.colorTheme": "One Dark Pro Vivid",
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     "editor.fontFamily": "Roboto Mono, monospace",
     "files.exclude": {
         "**/tmp": true,
@@ -21,6 +21,7 @@
     "editor.colorDecorators": false,
     "editor.formatOnPaste": false,
     "editor.minimap.showSlider": "always",
+    "editor.minimap.renderCharacters": false,
     "workbench.statusBar.visible": true,
     "files.associations": {
         "*.html": "html"
@@ -37,7 +38,8 @@
     "editor.scrollBeyondLastLine": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
-    }
+    },
+    "editor.fontWeight": "500"
 }
 ```
 
