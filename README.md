@@ -2,7 +2,6 @@
 ```json
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "One Dark Pro Vivid",
     "editor.fontSize": 15,
     "editor.fontFamily": "Roboto Mono, monospace",
     "files.exclude": {
@@ -12,7 +11,6 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
-    "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "workbench.editor.showIcons": false,
     "workbench.startupEditor": "none",
     "emmet.syntaxProfiles": {
@@ -39,7 +37,9 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "editor.fontWeight": "500"
+    "editor.fontWeight": "500",
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "workbench.iconTheme": "material-icon-theme"
 }
 ```
 
