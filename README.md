@@ -40,14 +40,9 @@
   "editor.fontWeight": "500",
   "workbench.colorTheme": "One Dark Pro Vivid",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.formatOnSave": false,
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": true
-  }
+  "editor.formatOnSave": true
 }
+
 ```
 
 # Extensions
