@@ -53,5 +53,6 @@
 - Material Theme
 - One Dark Pro
 - Prettify JSON
+- Prettier
 - VS Live Share
 - XML Tools
