@@ -11,7 +11,6 @@
     "**/CVS": true,
     "**/.DS_Store": true
   },
-  "workbench.editor.showIcons": false,
   "workbench.startupEditor": "none",
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -40,6 +39,9 @@
   "editor.fontWeight": "500",
   "workbench.colorTheme": "One Dark Pro Vivid",
   "workbench.iconTheme": "material-icon-theme",
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.autoImports": false,
+  "breadcrumbs.filePath": "off",
   "editor.formatOnSave": true
 }
 
