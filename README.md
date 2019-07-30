@@ -9,7 +9,8 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true
+    "**/.DS_Store": true,
+    "**/_DS_Store": true
   },
   "workbench.startupEditor": "none",
   "emmet.syntaxProfiles": {
@@ -42,7 +43,8 @@
   "typescript.suggest.autoImports": false,
   "javascript.suggest.autoImports": false,
   "breadcrumbs.filePath": "off",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true
 }
 
 ```
