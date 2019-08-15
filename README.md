@@ -43,8 +43,9 @@
   "typescript.suggest.autoImports": false,
   "javascript.suggest.autoImports": false,
   "breadcrumbs.filePath": "off",
+  "emmet.triggerExpansionOnTab": true,
   "editor.formatOnSave": true,
-  "emmet.triggerExpansionOnTab": true
+  "material-icon-theme.folders.color": "#42a5f5"
 }
 
 ```
@@ -59,4 +60,3 @@
 - Prettify JSON
 - Prettier
 - VS Live Share
-- XML Tools
