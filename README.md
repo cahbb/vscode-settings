@@ -1,6 +1,7 @@
 # Settings
 ```json
 {
+  "editor.formatOnSave": false,
   "window.zoomLevel": 0,
   "editor.fontSize": 15,
   "editor.fontFamily": "Roboto Mono, monospace",
@@ -44,19 +45,59 @@
   "javascript.suggest.autoImports": false,
   "breadcrumbs.filePath": "off",
   "emmet.triggerExpansionOnTab": true,
-  "editor.formatOnSave": true,
-  "material-icon-theme.folders.color": "#42a5f5"
+  "material-icon-theme.folders.color": "#42a5f5",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
+  "gitlens.views.repositories.enabled": false,
+  "gitlens.views.fileHistory.enabled": false,
+  "gitlens.views.lineHistory.enabled": false,
+  "gitlens.views.search.enabled": false,
+  "gitlens.views.compare.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.recentChanges.highlight.locations": [],
+  "gitlens.codeLens.enabled": false,
+  "gitlens.blame.heatmap.enabled": false,
+  "gitlens.blame.avatars": false,
+  "gitlens.menus": false,
+  "gitlens.blame.compact": false,
+  "gitlens.blame.highlight.enabled": false,
+  "gitlens.statusBar.reduceFlicker": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
-
 ```
 
 # Extensions
+- Apollo GraphQL
 - EditorConfiq for VS Code
 - ESlint
 - File Utils
+- GitLens
 - Material Icon Theme
 - Material Theme
 - One Dark Pro
 - Prettify JSON
 - Prettier
+- TSLint
 - VS Live Share
+- vscode-styled-components
