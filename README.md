@@ -1,7 +1,7 @@
 # Settings
 ```json
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "window.zoomLevel": 0,
   "editor.fontSize": 15,
   "editor.fontFamily": "Roboto Mono, monospace",
@@ -39,12 +39,12 @@
     "javascript": "javascriptreact"
   },
   "editor.fontWeight": "500",
-  "workbench.colorTheme": "One Dark Pro Vivid",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
   "typescript.suggest.autoImports": false,
   "javascript.suggest.autoImports": false,
   "breadcrumbs.filePath": "off",
   "emmet.triggerExpansionOnTab": true,
+  "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.color": "#42a5f5",
   "eslint.validate": [
     "javascript",
@@ -58,7 +58,6 @@
       "autoFix": true
     }
   ],
-  "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.hovers.enabled": false,
   "gitlens.views.repositories.enabled": false,
@@ -68,7 +67,6 @@
   "gitlens.views.compare.enabled": false,
   "gitlens.mode.statusBar.enabled": false,
   "gitlens.recentChanges.highlight.locations": [],
-  "gitlens.codeLens.enabled": false,
   "gitlens.blame.heatmap.enabled": false,
   "gitlens.blame.avatars": false,
   "gitlens.menus": false,
@@ -83,7 +81,20 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
+  "terminal.integrated.rendererType": "canvas",
 }
 ```
 
