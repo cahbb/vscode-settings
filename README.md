@@ -3,7 +3,7 @@
 {
   "editor.formatOnSave": true,
   "window.zoomLevel": 0,
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.fontFamily": "Roboto Mono, monospace",
   "files.exclude": {
     "**/tmp": true,
@@ -29,7 +29,7 @@
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "explorer.confirmDelete": false,
   "javascript.validate.enable": false,
   "explorer.confirmDragAndDrop": false,
@@ -45,34 +45,15 @@
   "breadcrumbs.filePath": "off",
   "emmet.triggerExpansionOnTab": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "material-icon-theme.folders.color": "#42a5f5",
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ],
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.hovers.enabled": false,
-  "gitlens.views.repositories.enabled": false,
-  "gitlens.views.fileHistory.enabled": false,
-  "gitlens.views.lineHistory.enabled": false,
-  "gitlens.views.search.enabled": false,
-  "gitlens.views.compare.enabled": false,
-  "gitlens.mode.statusBar.enabled": false,
-  "gitlens.recentChanges.highlight.locations": [],
-  "gitlens.blame.heatmap.enabled": false,
-  "gitlens.blame.avatars": false,
-  "gitlens.menus": false,
-  "gitlens.blame.compact": false,
-  "gitlens.blame.highlight.enabled": false,
-  "gitlens.statusBar.reduceFlicker": true,
+  "material-icon-theme.folders.associations": {
+    "domain": "shared",
+    "ui": "components",
+    "__graphql__": "graphql",
+    "framework": "components"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -88,13 +69,18 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "gitlens.codeLens.enabled": false,
-  "gitlens.currentLine.enabled": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
   "terminal.integrated.rendererType": "canvas",
+  "explorer.compactFolders": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
 }
 ```
 
