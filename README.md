@@ -1,7 +1,7 @@
 # Settings
 ```json
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "window.zoomLevel": 0,
   "editor.fontSize": 16,
   "editor.fontFamily": "Roboto Mono, monospace",
@@ -28,11 +28,10 @@
   "explorer.autoReveal": false,
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.activityBar.visible": true,
   "explorer.confirmDelete": false,
   "javascript.validate.enable": false,
-  "explorer.confirmDragAndDrop": false,
   "editor.fontLigatures": true,
   "editor.scrollBeyondLastLine": false,
   "emmet.includeLanguages": {
@@ -56,22 +55,28 @@
     "framework": "components"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
   "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
   "terminal.integrated.rendererType": "canvas",
@@ -86,9 +91,10 @@
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
   "diffEditor.ignoreTrimWhitespace": false,
-  "zenMode.hideActivityBar": false
+  "zenMode.hideActivityBar": false,
+  "workbench.editor.showTabs": true,
+  "githubPullRequests.fileListLayout": "flat"
 }
-
 ```
 
 # Keybindings
