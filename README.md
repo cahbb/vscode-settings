@@ -2,8 +2,7 @@
 ```json
 {
   "editor.formatOnSave": false,
-  "window.zoomLevel": 0,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.fontFamily": "Roboto Mono, monospace",
   "files.exclude": {
     "**/tmp": true,
@@ -78,6 +77,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
   },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
   "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
   "terminal.integrated.rendererType": "canvas",
   "explorer.compactFolders": false,
@@ -93,7 +96,9 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "zenMode.hideActivityBar": false,
   "workbench.editor.showTabs": true,
-  "githubPullRequests.fileListLayout": "flat"
+  "githubPullRequests.fileListLayout": "flat",
+  "liveshare.authenticationProvider": "GitHub",
+  "debug.javascript.autoAttachFilter": "disabled"
 }
 ```
 
@@ -147,3 +152,4 @@
 - TSLint
 - VS Live Share
 - vscode-styled-components
+- Sort Lines
