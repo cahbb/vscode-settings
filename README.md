@@ -147,7 +147,6 @@
 - Material Icon Theme
 - Material Theme
 - One Dark Pro
-- Prettify JSON
 - Prettier
 - TSLint
 - VS Live Share
