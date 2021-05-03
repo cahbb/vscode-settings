@@ -148,7 +148,6 @@
 - Material Theme
 - One Dark Pro
 - Prettier
-- TSLint
 - VS Live Share
 - vscode-styled-components
 - Sort Lines
