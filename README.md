@@ -1,8 +1,8 @@
 # Settings
 ```json
 {
-  "editor.formatOnSave": false,
-  "editor.fontSize": 18,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 15,
   "editor.fontFamily": "Roboto Mono, monospace",
   "files.exclude": {
     "**/tmp": true,
@@ -38,7 +38,7 @@
   },
   "editor.fontWeight": "500",
   "workbench.colorTheme": "One Dark Pro",
-  "typescript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": true,
   "javascript.suggest.autoImports": false,
   "breadcrumbs.filePath": "off",
   "emmet.triggerExpansionOnTab": true,
@@ -55,34 +55,33 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "[graphql]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
-  "terminal.integrated.rendererType": "canvas",
   "explorer.compactFolders": false,
   "eslint.validate": [
     "javascript",
@@ -93,12 +92,15 @@
   "zenMode.hideTabs": false,
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "zenMode.hideActivityBar": false,
   "workbench.editor.showTabs": true,
   "githubPullRequests.fileListLayout": "flat",
   "liveshare.authenticationProvider": "GitHub",
-  "debug.javascript.autoAttachFilter": "disabled"
+  "debug.javascript.autoAttachFilter": "disabled",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
 
