@@ -1,7 +1,6 @@
 # Settings
 ```json
 {
-  "editor.formatOnSave": true,
   "editor.fontSize": 15,
   "editor.fontFamily": "Roboto Mono, monospace",
   "files.exclude": {
@@ -100,8 +99,12 @@
   "debug.javascript.autoAttachFilter": "disabled",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "material-icon-theme.folders.theme": "specific",
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false
 }
+
 ```
 
 # Keybindings
