@@ -1,6 +1,7 @@
 # Settings
 ```json
 {
+  "editor.formatOnSave": true,
   "editor.fontSize": 15,
   "editor.fontFamily": "Roboto Mono, monospace",
   "files.exclude": {
@@ -12,9 +13,6 @@
     "**/_DS_Store": true
   },
   "workbench.startupEditor": "none",
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
   "editor.colorDecorators": false,
   "editor.formatOnPaste": false,
   "editor.minimap.showSlider": "always",
@@ -88,14 +86,8 @@
     "typescript",
     "typescriptreact"
   ],
-  "zenMode.hideTabs": false,
-  "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  "zenMode.hideActivityBar": false,
-  "workbench.editor.showTabs": true,
   "githubPullRequests.fileListLayout": "flat",
-  "liveshare.authenticationProvider": "GitHub",
   "debug.javascript.autoAttachFilter": "disabled",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -104,6 +96,7 @@
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false
 }
+
 
 ```
 
@@ -148,7 +141,6 @@
 - EditorConfiq for VS Code
 - ESlint
 - File Utils
-- GitLens
 - Material Icon Theme
 - Material Theme
 - One Dark Pro
