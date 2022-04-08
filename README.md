@@ -2,7 +2,7 @@
 ```json
 {
   "editor.formatOnSave": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.fontFamily": "Roboto Mono, monospace",
   "files.exclude": {
     "**/tmp": true,
@@ -78,6 +78,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[svg]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
   "explorer.compactFolders": false,
   "eslint.validate": [
@@ -94,10 +98,13 @@
   },
   "material-icon-theme.folders.theme": "specific",
   "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": false
+  "editor.guides.bracketPairsHorizontal": false,
+  "workbench.editor.showTabs": true,
+  "gitlens.codeLens.enabled": false,
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  }
 }
-
-
 ```
 
 # Keybindings
@@ -141,6 +148,7 @@
 - EditorConfiq for VS Code
 - ESlint
 - File Utils
+- GitLens
 - Material Icon Theme
 - Material Theme
 - One Dark Pro
