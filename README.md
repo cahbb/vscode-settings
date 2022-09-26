@@ -1,115 +1,50 @@
 # Settings
 ```json
 {
-  "editor.formatOnSave": true,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Roboto Mono, monospace",
-  "files.exclude": {
-    "**/tmp": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/_DS_Store": true
-  },
-  "workbench.startupEditor": "none",
-  "editor.colorDecorators": false,
-  "editor.formatOnPaste": false,
-  "editor.minimap.showSlider": "always",
-  "editor.minimap.renderCharacters": false,
-  "workbench.statusBar.visible": true,
-  "files.associations": {
-    "*.html": "html"
-  },
-  "explorer.autoReveal": false,
-  "editor.renderWhitespace": "none",
-  "editor.wordWrap": "on",
-  "workbench.sideBar.location": "left",
-  "workbench.activityBar.visible": true,
-  "explorer.confirmDelete": false,
-  "javascript.validate.enable": false,
-  "editor.fontLigatures": true,
-  "editor.scrollBeyondLastLine": false,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "editor.fontWeight": "500",
-  "workbench.colorTheme": "One Dark Pro",
-  "typescript.suggest.autoImports": true,
-  "javascript.suggest.autoImports": false,
-  "breadcrumbs.filePath": "off",
-  "emmet.triggerExpansionOnTab": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.editor.enablePreview": true,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "material-icon-theme.folders.color": "#42a5f5",
-  "material-icon-theme.folders.associations": {
-    "domain": "shared",
-    "ui": "components",
-    "__graphql__": "graphql",
-    "__codegen__": "graphql",
-    "framework": "components"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[graphql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[svg]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
-  "explorer.compactFolders": false,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "diffEditor.ignoreTrimWhitespace": true,
-  "githubPullRequests.fileListLayout": "flat",
   "debug.javascript.autoAttachFilter": "disabled",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "material-icon-theme.folders.theme": "specific",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.colorDecorators": false,
+  "editor.fontFamily": "Roboto Mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "500",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "none",
+  "editor.scrollBeyondLastLine": false,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "githubPullRequests.fileListLayout": "flat",
+  "githubPullRequests.pullBranch": "never",
+  "material-icon-theme.folders.associations": {
+    "__codegen__": "graphql",
+    "__graphql__": "graphql",
+    "domain": "shared",
+    "framework": "components",
+    "ui": "components"
+  },
+  "material-icon-theme.folders.color": "#42a5f5",
+  "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.showTabs": true,
-  "gitlens.codeLens.enabled": false,
-  "workbench.editorAssociations": {
-    "git-rebase-todo": "default"
-  }
+  "workbench.editorAssociations": { "git-rebase-todo": "default" },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": true
 }
 ```
 
 # Keybindings
 ```json
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "ctrl+shift+cmd+c",
