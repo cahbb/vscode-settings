@@ -1,6 +1,21 @@
 # Settings
 ```json
 {
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "debug.javascript.autoAttachFilter": "disabled",
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.colorDecorators": false,
@@ -39,7 +54,8 @@
   "workbench.editorAssociations": { "git-rebase-todo": "default" },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "left",
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "explorer.compactFolders": false
 }
 ```
 
