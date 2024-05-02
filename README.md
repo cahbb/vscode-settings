@@ -21,7 +21,7 @@
   "editor.colorDecorators": false,
   "editor.fontFamily": "Roboto Mono, monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.fontWeight": "500",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
@@ -37,8 +37,6 @@
   "emmet.triggerExpansionOnTab": true,
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
-  "githubPullRequests.fileListLayout": "flat",
-  "githubPullRequests.pullBranch": "never",
   "material-icon-theme.folders.associations": {
     "__codegen__": "graphql",
     "__graphql__": "graphql",
@@ -48,30 +46,25 @@
   },
   "material-icon-theme.folders.color": "#42a5f5",
   "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
-  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "One Dark Pro",
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "workbench.editorAssociations": { "git-rebase-todo": "default" },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "left",
   "workbench.statusBar.visible": true,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+  "prettier.configPath": ".prettierrc.cjs"
 }
 ```
 
 # Keybindings
 ```json
 [
-  {
-    "key": "ctrl+shift+cmd+c",
-    "command": "workbench.action.terminal.openNativeConsole",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "shift+cmd+c",
-    "command": "-workbench.action.terminal.openNativeConsole",
-    "when": "!terminalFocus"
-  },
   {
     "key": "alt+cmd+r",
     "command": "workbench.files.action.showActiveFileInExplorer"
@@ -91,7 +84,6 @@
   { "key": "cmd+8", "command": "workbench.action.openEditorAtIndex8" },
   { "key": "cmd+9", "command": "workbench.action.openEditorAtIndex9" }
 ]
-
 ```
 
 # Extensions
@@ -99,11 +91,14 @@
 - EditorConfiq for VS Code
 - ESlint
 - File Utils
-- GitLens
+- GitHub Copilot
+- Github Copilot Chat
+- GraphQL: Inline Operation Execution
+- GraphQL: Language Feature Support
+- GraphQL: Syntax Highlighting
 - Material Icon Theme
 - Material Theme
 - One Dark Pro
 - Prettier
-- VS Live Share
 - vscode-styled-components
 - Sort Lines
