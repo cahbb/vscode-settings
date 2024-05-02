@@ -93,7 +93,6 @@
 - File Utils
 - GitHub Copilot
 - Github Copilot Chat
-- GraphQL: Inline Operation Execution
 - GraphQL: Language Feature Support
 - GraphQL: Syntax Highlighting
 - Material Icon Theme
