@@ -16,6 +16,9 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "debug.javascript.autoAttachFilter": "disabled",
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.colorDecorators": false,
@@ -33,7 +36,9 @@
   "editor.renderWhitespace": "none",
   "editor.scrollBeyondLastLine": false,
   "editor.wordWrap": "on",
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "emmet.triggerExpansionOnTab": true,
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
@@ -48,7 +53,9 @@
   "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.showTabs": "multiple",
-  "workbench.editorAssociations": { "git-rebase-todo": "default" },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "left",
   "workbench.statusBar.visible": true,
@@ -57,8 +64,20 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "extensions.ignoreRecommendations": true,
-  "workbench.startupEditor": "none",
-  "prettier.configPath": ".prettierrc.cjs"
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "git.blame.statusBarItem.enabled": true,
+  "git.blame.statusBarItem.template": "${subject}, ${authorName} (${authorDateAgo})",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Ayu Mirage Bordered",
+  "workbench.preferredHighContrastColorTheme": "One Dark Pro Mix",
+  "workbench.preferredLightColorTheme": "Ayu Light",
+  "workbench.preferredHighContrastLightColorTheme": "Ayu Light Bordered",
+  "material-icon-theme.activeIconPack": "react"
 }
 ```
 
@@ -88,16 +107,17 @@
 
 # Extensions
 - Apollo GraphQL
+- Ayu
 - EditorConfiq for VS Code
 - ESlint
 - File Utils
-- GitHub Copilot
-- Github Copilot Chat
 - GraphQL: Language Feature Support
 - GraphQL: Syntax Highlighting
 - Material Icon Theme
 - Material Theme
+- MDX
 - One Dark Pro
 - Prettier
-- vscode-styled-components
 - Sort Lines
+- Tailwind CSS IntelliSense
+- vscode-styled-components
